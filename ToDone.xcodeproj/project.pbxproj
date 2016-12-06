@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37623F3F1DF4AF5E009DACAF /* TDSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37623F3E1DF4AF5E009DACAF /* TDSecondVC.swift */; };
 		37CBBCD51DF1E8AB0068D0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBCD41DF1E8AB0068D0E9 /* AppDelegate.swift */; };
-		37CBBCD71DF1E8AB0068D0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBCD61DF1E8AB0068D0E9 /* ViewController.swift */; };
+		37CBBCD71DF1E8AB0068D0E9 /* TDFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBCD61DF1E8AB0068D0E9 /* TDFirstVC.swift */; };
 		37CBBCDA1DF1E8AC0068D0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CBBCD81DF1E8AC0068D0E9 /* Main.storyboard */; };
 		37CBBCDD1DF1E8AC0068D0E9 /* ToDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBCDB1DF1E8AC0068D0E9 /* ToDone.xcdatamodeld */; };
 		37CBBCDF1DF1E8AC0068D0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CBBCDE1DF1E8AC0068D0E9 /* Assets.xcassets */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37623F3E1DF4AF5E009DACAF /* TDSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDSecondVC.swift; sourceTree = "<group>"; };
 		37CBBCD11DF1E8AB0068D0E9 /* ToDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CBBCD41DF1E8AB0068D0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37CBBCD61DF1E8AB0068D0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37CBBCD61DF1E8AB0068D0E9 /* TDFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFirstVC.swift; sourceTree = "<group>"; };
 		37CBBCD91DF1E8AC0068D0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37CBBCDC1DF1E8AC0068D0E9 /* ToDone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDone.xcdatamodel; sourceTree = "<group>"; };
 		37CBBCDE1DF1E8AC0068D0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				37CBBCD41DF1E8AB0068D0E9 /* AppDelegate.swift */,
-				37CBBCD61DF1E8AB0068D0E9 /* ViewController.swift */,
+				37CBBCD61DF1E8AB0068D0E9 /* TDFirstVC.swift */,
+				37623F3E1DF4AF5E009DACAF /* TDSecondVC.swift */,
 				37CBBCD81DF1E8AC0068D0E9 /* Main.storyboard */,
 				37CBBCDE1DF1E8AC0068D0E9 /* Assets.xcassets */,
 				37CBBCE01DF1E8AC0068D0E9 /* LaunchScreen.storyboard */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37623F3F1DF4AF5E009DACAF /* TDSecondVC.swift in Sources */,
 				37CBBCDD1DF1E8AC0068D0E9 /* ToDone.xcdatamodeld in Sources */,
-				37CBBCD71DF1E8AB0068D0E9 /* ViewController.swift in Sources */,
+				37CBBCD71DF1E8AB0068D0E9 /* TDFirstVC.swift in Sources */,
 				37CBBCD51DF1E8AB0068D0E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +513,7 @@
 				37CBBCFE1DF1E8AC0068D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CBBCFF1DF1E8AC0068D0E9 /* Build configuration list for PBXNativeTarget "ToDoneTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				37CBBD011DF1E8AC0068D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CBBD021DF1E8AC0068D0E9 /* Build configuration list for PBXNativeTarget "ToDoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				37CBBD041DF1E8AC0068D0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
